@@ -1,0 +1,23 @@
+:root {
+  --body-bg: #f4f3f0;
+  --primary-color: #3a5f56;
+  --add-color: #292c32;
+  --footer-text-color: #b87d58;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--body-bg);
+  color: var(--primary-color);
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1168px;
+}

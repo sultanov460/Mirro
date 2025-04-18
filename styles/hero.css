@@ -1,0 +1,37 @@
+.hero-wrapper {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 64px;
+  padding: 100px 136px;
+}
+
+.hero-title {
+  font-family: "Source Serif Pro", sans-serif;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 57.6px;
+  letter-spacing: 0%;
+}
+
+.hero-text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  margin-top: 14px;
+}
+
+.hero-btn {
+  border: none;
+  width: 118px;
+  height: 44px;
+  border-radius: 6px;
+  background-color: var(--primary-color);
+  color: white;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  padding: 10px 18px;
+  margin-top: 20px;
+}

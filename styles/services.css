@@ -1,0 +1,83 @@
+.services {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  position: relative;
+  padding: 100px 0;
+}
+
+.statistic-img {
+  text-align: center;
+}
+
+.services-text {
+  text-align: center;
+}
+
+.services-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  color: var(--add-color);
+  margin-top: 11px;
+  max-width: 591px;
+  margin: 0 auto;
+}
+
+.services-title {
+  color: var(--primary-color);
+  font-family: "Source Serif Pro", sans-serif;
+  font-size: 32px;
+  line-height: 38.4px;
+  letter-spacing: 0%;
+  margin-top: 15px;
+}
+
+.services-cards {
+  padding: 0 136px;
+  display: flex;
+  margin-top: 40px;
+  flex-wrap: wrap;
+  gap: 16px;
+  z-index: 2;
+}
+
+.service-card {
+  padding-right: 30px;
+  padding-left: 35px;
+  width: 379px;
+  height: 304px;
+  border-radius: 16px;
+  background-color: var(--body-bg);
+  padding-top: 30px;
+}
+
+.services-card-title {
+  margin-top: 9px;
+  font-family: "Source Serif Pro", sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 28.8px;
+  letter-spacing: 0%;
+  color: var(--primary-color);
+}
+
+.card-paragraph {
+  margin-top: 6px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+}
+
+.services-readmore {
+  margin-top: 17px;
+}
+
+/* .back-img-services {
+  z-index: 2;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+} */

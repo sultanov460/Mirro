@@ -1,0 +1,83 @@
+.preset-store {
+  background-color: var(--body-bg);
+  padding: 50px 10px;
+  min-height: 100vh;
+}
+
+.preset {
+}
+
+.preset-store-text {
+  text-align: center;
+}
+
+.preset-store-title {
+  font-family: "Source Serif Pro";
+  color: #db343b;
+  font-weight: 400;
+  font-size: 32px;
+  line-height: 38.4px;
+  letter-spacing: 0%;
+  margin-top: 15px;
+}
+
+.preset-store-paragraph {
+  margin-top: 11px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  max-width: 591px;
+  margin: 0 auto;
+}
+
+.store-cards {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.store-card {
+  width: 379px;
+  background-color: white;
+  border-radius: 0 0 8px 8px;
+}
+
+.store-title {
+  font-family: "Soure Serif Pro";
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 33.6px;
+  letter-spacing: 0%;
+  color: var(--primary-color);
+}
+
+.store-paragraph {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 22.4px;
+  letter-spacing: 0%;
+  margin-top: 6px;
+}
+
+.store-text {
+  margin: 30px;
+}
+
+.store-end {
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 23.8px;
+  letter-spacing: 0%;
+  color: var(--primary-color);
+  margin-top: 30px;
+  justify-content: center;
+  display: flex;
+}
+/* 
+.back-img-store {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+} */

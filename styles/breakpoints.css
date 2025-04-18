@@ -1,0 +1,178 @@
+@media (max-width: 1172px) {
+  .container {
+    padding: 0 10px;
+  }
+
+  .hero-wrapper {
+    flex-direction: column-reverse;
+    justify-content: center;
+    padding: 50px 70px;
+  }
+
+  .hero-text-container {
+    text-align: center;
+  }
+
+  .services-cards {
+    padding: 10px 50px;
+  }
+
+  .store-cards {
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+
+  .footer{
+    padding: 10px 70px;
+  }
+
+  .footer-wrapper{
+    gap: 30px;
+  }
+}
+
+@media (max-width: 980px) {
+  .footer-wrapper{
+    gap: 15px;
+  }
+
+  .footer{
+    padding: 20px 30px;
+  }
+
+}
+
+@media (max-width: 650px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-mobile {
+    display: block;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  .hero-wrapper {
+    padding: 50px 10px;
+  }
+
+  .hero-img {
+    width: 100%;
+  }
+
+  .hero-title {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .services-cards {
+    width: 100%;
+    margin: 10px auto;
+    padding: 15px;
+  }
+
+  .services-card-title {
+    font-size: 20px;
+  }
+
+  .card-paragraph {
+    font-size: 12px;
+  }
+
+  .service-card {
+    padding: 15px;
+    max-height: 250px;
+    width: 100%;
+  }
+
+  .banner-wrapper {
+    flex-direction: column;
+    text-align: center;
+    gap: 25px;
+    width: 100%;
+  }
+
+  .banner-btn {
+    margin: 0 auto;
+  }
+  .footer{
+    padding: 30px 10px;
+  }
+  .footer-wrapper{
+    flex-direction: column;
+    gap: 25px;
+    margin-top: 30px;
+
+  }
+
+  .pages-store,
+  .preset-business,
+  .utility{
+      line-height: 15px;
+      gap: 10px;
+      text-align: center;
+    }
+
+    .store-categories{
+      margin-top: 0;
+    }
+
+    .web-end{
+      margin-top:40px;
+    }
+}
+
+@media (max-width: 580px) {
+  .services {
+    padding: 50px 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .store-card {
+    width: 100%;
+  }
+
+  .store-card img {
+    width: 100%;
+  }
+
+  .input-email{
+    width: 350px;
+  }
+
+  .web-end{
+    font-size: 10px;
+    text-align: center;
+  }
+
+  .newsletter{
+    margin-left: 0;
+    text-align: center;
+  }
+  .end-logos{
+    justify-content: center !important;
+    margin-top: 15px;
+  }
+
+  .footer-input{
+    padding-left: 25px;
+  }
+
+  .email-form{
+    display: block;
+    margin: 0 auto;
+  }
+}
+
+@media (max-width:380px){
+  .newsletter{
+    font-size: 15px;
+    padding: 0px 30px;
+  }
+
+  .footer-input{
+    padding-left: 50px;
+  }
+
+}
